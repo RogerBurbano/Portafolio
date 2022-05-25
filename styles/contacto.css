@@ -1,3 +1,33 @@
-body{
-    min-height: 100vh;
+.efecto{
+    
+    background-color: rgb(36, 32, 32);
+    color: white;
+    font-family: 'DRagonlord', sans-serif;
+    
+}  
+/* font-family: 'DRagonlord', sans-serif; */
+
+main {
+    
+    position: relative;
+}
+
+ video{
+    position: absolute;
+ 
+    width:50%;
+    height: 15%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 16%;
+}
+
+h2{
+    background-color: black;
+    font-size: 220px;
+    text-align: center;
+    font-weight: 400;
+    mix-blend-mode:multiply;
+    font-family: 'DRagonlord', sans-serif;
+    margin-bottom: 61%;
 }
