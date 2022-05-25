@@ -1,8 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/south-park');
+*{
+    font-family: 'South Park', sans-serif;
+}
 body{
     padding: 0;
     box-sizing: border-box;
-    font-family: 'South Park', sans-serif;
+    
 }
 
 .hero1 {
