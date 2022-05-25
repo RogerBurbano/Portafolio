@@ -5,24 +5,19 @@
     /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif;
-    font-family: 'Shadows Into Light', cursive; */
     font-family: 'South Park', sans-serif;
 
 }
 
 :root {
-    --color:  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(189, 92, 7, 0.6418942577030813) 35%, rgba(4, 72, 85, 1) 100%);
+    --color: background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(189, 92, 7, 0.6418942577030813) 35%, rgba(4, 72, 85, 1) 100%);
     /* margin-top: 30px; */
 }
 
 body {
-    background:rgb(23 25 36); 
-  
-    
+    background: rgb(23 25 36);
     background-repeat: no-repeat;
     background-size: cover;
-    
     border-radius: 20px;
     position: relative;
     padding-bottom: 3em;
@@ -45,7 +40,7 @@ body {
     border-radius: 40px;
     position: sticky;
     top: 15px;
-    margin-top:30px ;
+    margin-top: 30px;
 
 
 }
@@ -65,10 +60,7 @@ body {
     gap: 20px;
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(189, 92, 7, 0.6418942577030813) 35%, rgba(4, 72, 85, 1) 100%);
-    /* -webkit-box-shadow: 10px 10px 5px 15px rgba(164, 20, 20, 0.75);
--moz-box-shadow: 10px 10px 5px 15px rgba(169, 16, 16, 0.75);
-box-shadow: 10px 10px 5px 15px rgba(164, 36, 36, 0.75); */
-
+ 
 }
 
 .navigation ul {
@@ -196,7 +188,7 @@ box-shadow: 10px 10px 5px 15px rgba(164, 36, 36, 0.75); */
 
 .main {
 
-   
+
     align-items: center;
     min-height: 10vh;
     max-height: 100%;
@@ -357,13 +349,14 @@ figure figcaption {
         align-items: center;
     }
 }
-.roger{
+
+.roger {
     border-radius: 50%;
 }
 
 
 /* footer */
-.foo{
+.foo {
     position: absolute;
     bottom: 0;
     width: 100%;
