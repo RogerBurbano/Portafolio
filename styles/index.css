@@ -1,3 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/south-park');
+body{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'South Park', sans-serif;
+}
+
 .hero1 {
     width: 100%;
     height: 40vh;
@@ -6,8 +13,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
 }
 
 .imagenes {
