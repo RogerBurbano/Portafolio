@@ -1,0 +1,50 @@
+
+
+.hero1 {
+    width: 100%;
+    height: 40vh;
+    background:  url(/images/home/mario.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    }
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+
+.parrafo{
+    text-align: center;
+    width: 500px;
+    color: rgb(4, 4, 4);
+    font-size: 23;
+}
+.parrafo h1{
+    margin-bottom: 10%;
+}
+.parrafo:hover{
+    color: orange;
+    border: 5px solid orange;
+    transition: .5s;    
+   
+ 
+    
+}
+
+.roger img{
+    border-radius: 35%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.roger img:hover{
+ 
+    border:3px solid orange;
+}

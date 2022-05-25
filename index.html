@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Roger Burbano</title>
+    <link rel="shortcut icon" href="images/ico/letra-r.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- efects -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="magic">
+
+        <h1>Mi Portafolio</h1>
+
+        <div class="navigation ">
+            <ul>
+                <li class=" list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="planet-outline"></ion-icon>
+
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">Portafolio</span>
+                    </a>
+                </li>
+
+                <li class="list ">
+                    <a href="sections/proyectos.html">
+                        <span class="icon">
+                            <ion-icon name="image-outline"></ion-icon>
+                        </span>
+                        <span class="text">Skills</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="logo-snapchat"></ion-icon>
+                        </span>
+                        <span class="text">Messages</span>
+                    </a>
+                </li> 
+
+                <li class="list">
+                    <a href="sections/contacto.html">
+                        <span class="icon">
+                            <ion-icon name="cog-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contacto</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </div>
+<!-- header hero -->
+<div class="hero1">
+
+
+
+
+</div>
+
+
+
+    <!-- main  -->
+
+
+    <div class="main">
+        <div class="wrapper">
+            <div class="typing-demo">
+                Mi nombre es Roger !!! soy desarrollador Web.
+            </div>
+        </div>
+
+    </div>
+
+   
+
+    <!-- <div class="hero">
+
+
+
+
+    </div> -->
+
+    <div class="imagenes">
+
+
+        <div class="roger">
+
+            <img src="images/roger.png" alt="">
+
+        </div>
+
+        <div class="parrafo">
+
+            <h1>Objetivos</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi placeat eveniet repudiandae autem tenetur
+                quae officiis unde assumenda ut earum explicabo quidem excepturi magnam, quo veritatis ipsum sint
+                molestias modi.</p>
+
+
+        </div>
+
+    </div>
+
+    <div class="hero1">
+
+     
+
+
+
+    </div>
+
+
+    <!-- footer -->
+    <div class="foo">
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/roger-burbano-94b199177/ " target="_blank">
+                    <i class=" fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/RogerBurbano" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Magic -->
+    <script src="https://cdn.rawgit.com/dixonandmoe/rellax/master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax', {
+            horizontal: true,
+            vertical: false,
+            speed: 1.5
+        });
+    </script>
+
+
+    <script>
+        const list = document.querySelectorAll('.list');
+
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink))
+    </script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

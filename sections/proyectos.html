@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/proyectos.css">
+    <link rel="shortcut icon" href="../images/ico/letra-r.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="magic">
+
+        <h2>Proyectos</h2>
+        <div class="navigation ">
+            <ul>
+                <li class=" list ">
+                    <a href="../index.html">
+                        <span class="icon">
+                            <ion-icon name="planet-outline"></ion-icon>
+
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">Portafolio</span>
+                    </a>
+                </li>
+
+                <li class="list active">
+                    <a href="../sections/proyectos.html">
+                        <span class="icon">
+                            <ion-icon name="image-outline"></ion-icon>
+                        </span>
+                        <span class="text">Proyectos</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="logo-snapchat"></ion-icon>
+                        </span>
+                        <span class="text">Experiencia</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="../sections/contacto.html">
+                        <span class="icon">
+                            <ion-icon name="cog-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contacto</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+
+        
+</div>
+<!-- fin navigation --> 
+<div class="proyectos">
+
+<div class="img1">
+<a href="https://rogerburbano.github.io/MyLingerie/" target="_blank"><img src="../images/proyectos/My lingeri.png" target="_blank" alt=""></a>
+</div>
+<div class="img2">
+    <img src="../images/js.webp" alt="">
+</div>
+<div class="img3">
+   <a href="https://rogerburbano.github.io/CarritoCompras/" target="_blank"><img src="../images/proyectos/My lingeriCar.png" alt=""></a>
+</div>
+
+
+</div>
+
+
+<!--Parallax -->
+    
+  
+    
+    <div id="parallax">
+        <h1>Proyectos</h1>
+    </div>
+
+
+    <!-- footer -->
+    <div class="foo">
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/roger-burbano-94b199177/ " target="_blank">
+                    <i class=" fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/RogerBurbano" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Fin Parallax -->
+    <div class="proyectos">
+
+        <div class="img1">
+        <a href="https://rogerburbano.github.io/MyLingerie/" target="_blank"><img src="../images/proyectos/My lingeri.png" target="_blank" alt=""></a>
+        </div>
+        <div class="img4">
+            <img src="../images/js.webp" alt="">
+        </div>
+        <div>
+           <a href="https://rogerburbano.github.io/CarritoCompras/" target="_blank"><img src="../images/proyectos/My lingeriCar.png" alt=""></a>
+        </div>
+        
+        
+        </div>
+
+    
+<script src="../js/proyectos.js"></script>
+    <script src="https://cdn.rawgit.com/dixonandmoe/rellax/master/rellax.min.js"></script>
+<script>
+var rellax = new Rellax('.rellax',{horizontal: true, vertical: false, speed: 1.5});
+</script>
+
+
+    <script>
+        const list = document.querySelectorAll('.list');
+
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink))
+    </script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
